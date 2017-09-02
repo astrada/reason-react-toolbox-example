@@ -1,0 +1,33 @@
+{
+  "name": "reason-react-toolbox-example",
+  "version": "0.1.0",
+  "description": "Example for reason-react-toolbox",
+  "repository": "https://github.com/astrada/reason-react-toolbox-example.git",
+  "author": "Alessandro Strada",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-toolbox": "^2.0.0-beta.12",
+    "reason-scripts": "0.6.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "prepare": "npm link bs-platform",
+    "toolbox": "react-toolbox-themr"
+  },
+  "devDependencies": {
+    "bs-jest": "^0.1.0",
+    "react-toolbox-themr": "^1.0.2",
+    "reason-react": "^0.2.4"
+  },
+  "reactToolbox": {
+    "include": [
+      "APP_BAR",
+      "BUTTON"
+    ]
+  }
+}

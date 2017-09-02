@@ -1,0 +1,14 @@
+{
+  "name": "reason-react-toolbox-example",
+  "sources": [
+    "src"
+  ],
+  "bs-dependencies": [
+    "reason-react",
+    "reason-react-toolbox",
+    "bs-jest"
+  ],
+  "reason": {
+    "react-jsx": 2
+  }
+}
