@@ -1,4 +1,4 @@
-let component = ReasonReact.statelessComponent "PurpleAppBar";
+let component = ReasonReact.statelessComponent "AppBar";
 
 let make _children => {
   ...component,
