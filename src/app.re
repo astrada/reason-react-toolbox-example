@@ -10,8 +10,8 @@ let make _children => {
     <ReactToolbox.ThemeProvider theme>
       <div>
         <AppBar />
-        <section style=(ReactDOMRe.Style.make padding::"20" ())>
-          <ReactToolbox.Button label="Success" primary=true raised=true />
+        <section style=(ReactDOMRe.Style.make padding::"20px" ())>
+          <ReactToolbox.Button label="Raised Button" primary=true raised=true />
           <ReactToolbox.Button label="Primary Button" primary=true />
         </section>
       </div>
