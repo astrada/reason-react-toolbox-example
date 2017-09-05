@@ -1,11 +1,14 @@
 {
   "name": "reason-react-toolbox-example",
+  "bsc-flags": ["-bs-super-errors"],
   "sources": [
     "src"
   ],
   "bs-dependencies": [
     "reason-react",
-    "reason-react-toolbox",
+    "reason-react-toolbox"
+  ],
+  "bs-dev-dependencies": [
     "bs-jest"
   ],
   "reason": {
