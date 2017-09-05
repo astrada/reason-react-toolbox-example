@@ -8,6 +8,7 @@ This repository contains ReasonML porting of
 
 1. Install dependencies:
 
+       npm install --global bs-platform
        yarn install
 
 2. Generate theme files:
