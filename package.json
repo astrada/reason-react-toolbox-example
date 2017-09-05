@@ -22,7 +22,8 @@
   "devDependencies": {
     "bs-jest": "^0.1.0",
     "react-toolbox-themr": "^1.0.2",
-    "reason-react": "^0.2.4"
+    "reason-react": "^0.2.4",
+    "reason-react-toolbox": "^0.1.0"
   },
   "reactToolbox": {
     "include": [
