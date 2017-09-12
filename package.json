@@ -1,6 +1,6 @@
 {
   "name": "reason-react-toolbox-example",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Example for reason-react-toolbox",
   "repository": "https://github.com/astrada/reason-react-toolbox-example.git",
   "author": "Alessandro Strada",
@@ -17,13 +17,14 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "prepare": "npm link bs-platform",
+    "clean": "bsb -clean-world",
     "toolbox": "react-toolbox-themr"
   },
   "devDependencies": {
     "bs-jest": "^0.1.0",
     "react-toolbox-themr": "^1.0.2",
     "reason-react": "^0.2.4",
-    "reason-react-toolbox": "^0.1.0"
+    "reason-react-toolbox": "^0.2.0"
   },
   "reactToolbox": {
     "include": [
