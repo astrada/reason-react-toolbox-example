@@ -1,6 +1,5 @@
 {
   "name": "reason-react-toolbox-example",
-  "bsc-flags": ["-bs-super-errors"],
   "sources": [
     "src"
   ],
