@@ -5,10 +5,10 @@
   ],
   "bs-dependencies": [
     "reason-react",
-    "reason-react-toolbox"
+    "@astrada/reason-react-toolbox"
   ],
   "bs-dev-dependencies": [
-    "bs-jest"
+    "@glennsl/bs-jest"
   ],
   "reason": {
     "react-jsx": 2

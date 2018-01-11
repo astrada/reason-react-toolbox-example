@@ -30,14 +30,14 @@ This repository contains ReasonML porting of
 2. Add dependencies:
 
        yarn add react-toolbox
-       yarn add --dev reason-react-toolbox react-toolbox-themr
+       yarn add --dev @astrada/reason-react-toolbox react-toolbox-themr
 
 3. Add `toolbox` to `scripts` in `package.json` (as explained
    [here](https://github.com/react-toolbox/react-toolbox-themr/blob/master/README.md)):
 
        "toolbox": "react-toolbox-themr"
 
-4. Change `name` in `bsconfig.json`, and add `reason-react-toolbox` to
+4. Change `name` in `bsconfig.json`, and add `@astrada/reason-react-toolbox` to
    `bs-dependencies`
 
 5. Add fonts to `public/index.html`:

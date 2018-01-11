@@ -1,8 +1,8 @@
 let component = ReasonReact.statelessComponent("Logo");
 
-let make = (_children) => {
+let make = _children => {
   ...component,
-  render: (_self) =>
+  render: _self =>
     <svg viewBox="0 0 144 131">
       <g>
         <path
